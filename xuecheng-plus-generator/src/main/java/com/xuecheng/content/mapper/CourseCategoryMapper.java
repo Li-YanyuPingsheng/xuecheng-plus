@@ -1,16 +1,16 @@
 package com.xuecheng.content.mapper;
 
-import com.xuecheng.content.model.po.TeachplanMedia;
+import com.xuecheng.content.model.po.CourseCategory;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
  * <p>
- *  Mapper 接口
+ * 课程分类 Mapper 接口
  * </p>
  *
  * @author itcast
  * @since 2023-02-28
  */
-public interface TeachplanMediaMapper extends BaseMapper<TeachplanMedia> {
+public interface CourseCategoryMapper extends BaseMapper<CourseCategory> {
 
 }
