@@ -15,6 +15,7 @@ import java.util.List;
  * @author itcast
  * @since 2023-02-28
  */
+@Mapper
 public interface CourseCategoryMapper extends BaseMapper<CourseCategory> {
 
     List<CourseCategoryTreeDto> selectTreeNodes(String id);
