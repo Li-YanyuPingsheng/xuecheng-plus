@@ -30,6 +30,6 @@ public class TeachplanController {
 
     @PostMapping("/teachplan")
     public void saveTeachplan(@RequestBody SaveTeachplanDto dto) {
-
+        teachplanService.saveTeachplan(dto);
     }
 }
